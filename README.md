@@ -73,17 +73,14 @@ The Power BI dashboard connects directly to the **materialized views** in the `a
 
 ### 🖼️ Dashboard Preview
 
-#### Overview
-![Overview](powerbi/images/overview.png)
+#### Revenue & Sales
+![Revenue & Sales](https://github.com/goncalosantos96/olist_e_commerce_project/blob/main/powerbi/revenue_sales.png)
 
-#### Sales
-![Sales](powerbi/images/sales.png)
+#### Logistics & SLA
+![Logistics & SLA](https://github.com/goncalosantos96/olist_e_commerce_project/blob/main/powerbi/logistics_sla.png)
 
-#### Logistics
-![Logistics](powerbi/images/logistics.png)
-
-#### Customers
-![Customers](powerbi/images/customers.png)
+#### Customer Satisfaction
+![Customer Satisfaction](https://github.com/goncalosantos96/olist_e_commerce_project/blob/main/powerbi/customer_satisfaction.png)
 
 > Note: Only screenshots are provided due to Power BI licensing limitations.
 
@@ -129,11 +126,3 @@ The dataset used in this project is publicly available on Kaggle:
 
 ---
 
-## 🚀 Next Steps (Optional)
-
-- Publish dashboard to Power BI Service
-- Automate the data pipeline
-- Implement data quality checks
-- Extend customer lifetime value analysis
-
----
