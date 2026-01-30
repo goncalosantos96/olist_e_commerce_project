@@ -100,6 +100,21 @@ These assumptions ensure analytical consistency given dataset limitations.
 
 ---
 
+## 📌 Key Business Insights
+
+Based on the analysis performed and the dashboards developed, the following key business insights were identified:
+
+- **Revenue Growth**: Revenue shows a clear upward trend over time, indicating sustained business growth and strong overall business health.
+- **Top Revenue-Generating Categories**: The top three product categories by revenue are **House & Construction**, **Electronics & Technology**, and **Cosmetics & Hygiene**.
+- **Geographical Revenue Distribution**: **São Paulo (SP)** is the state responsible for the highest share of total revenue.
+- **Delivery SLA Performance**: Approximately **94% of orders are delivered within the estimated delivery time**, reflecting solid logistics performance.
+- **SLA Under High Demand**: Periods of sharp growth in order volume led to temporary declines and instability in delivery SLA. This issue was later mitigated and stabilized, indicating improved logistical readiness to handle higher demand.
+- **Continuous Improvement in Deliveries**: Over the full historical period, there is a clear reduction in how late orders arrive beyond the estimated delivery date.
+- **Order Volume vs Delays**: Increases in late deliveries coincide with spikes in order volume, reinforcing the initial logistics strain during growth phases, followed by operational improvements.
+- **Customer Satisfaction Impact**: Customer satisfaction is strongly influenced by delivery timeliness. Late deliveries show a sharp drop in average review scores, highlighting the direct impact of SLA performance on customer experience.
+
+---
+
 ## 🛠️ Technologies Used
 
 - **Database**: PostgreSQL  
