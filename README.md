@@ -6,7 +6,7 @@ The main focus of this project is **data modeling, SQL-based transformations, an
 
 ---
 
-## 🧠 Architecture Overview
+## Architecture Overview
 
 1. Load raw data from Kaggle into a **PostgreSQL** database  
 2. Create a **transformation schema** for data cleaning and processing  
@@ -16,14 +16,14 @@ The main focus of this project is **data modeling, SQL-based transformations, an
 
 ---
 
-## 🗄️ Data Modeling
+## Data Modeling
 
 The data was modeled using a **Star Schema**, a dimensional modeling approach optimized for analytical workloads, enabling:
 - High-performance queries
 - Clear business logic
 - Drill-down capabilities through joins with dimension tables
 
-### 📐 Dimension Tables
+### Dimension Tables
 - `dim_location`
 - `dim_customer`
 - `dim_seller`
@@ -31,13 +31,13 @@ The data was modeled using a **Star Schema**, a dimensional modeling approach op
 - `dim_time`
 - `dim_order_status`
 
-### 📊 Fact Tables
+### Fact Tables
 - `fact_orders`
 - `fact_order_item`
 
 ---
 
-## 🔄 Transformation Layer (SQL)
+## Transformation Layer (SQL)
 
 A dedicated **transformation schema** was created where raw data was:
 - Cleaned
@@ -49,15 +49,15 @@ All business rules and KPI logic were implemented **in SQL**, ensuring the datab
 
 ---
 
-## 📈 Analytics Layer (`analytics` schema)
+## Analytics Layer (`analytics` schema)
 
 Within the `analytics` schema, multiple **materialized views** were created to support analytics and reporting.
 
-### 🔹 Core Views (used by Power BI)
+### Core Views (used by Power BI)
 - `vw_sales`
 - `vw_logistics`
 
-### 🔹 Additional Analytical Views
+### Additional Analytical Views
 - Revenue & Sales
 - Time & Seasonality
 - Customers & Satisfaction
@@ -67,11 +67,11 @@ These views allow advanced analysis while keeping Power BI focused solely on vis
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 The Power BI dashboard connects directly to the **materialized views** in the `analytics` schema, focusing on **KPI visualization and business insights**.
 
-### 🖼️ Dashboard Preview
+### Dashboard Preview
 
 #### Revenue & Sales
 ![Revenue & Sales](https://github.com/goncalosantos96/olist_e_commerce_project/blob/main/powerbi/revenue_sales.png)
@@ -86,7 +86,7 @@ The Power BI dashboard connects directly to the **materialized views** in the `a
 
 ---
 
-## ⚠️ Project Assumptions
+## Project Assumptions
 
 The following assumptions were made during project development:
 
@@ -100,7 +100,7 @@ These assumptions ensure analytical consistency given dataset limitations.
 
 ---
 
-## 📌 Key Business Insights
+## Key Business Insights
 
 Based on the analysis performed and the dashboards developed, the following key business insights were identified:
 
@@ -115,7 +115,7 @@ Based on the analysis performed and the dashboards developed, the following key 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Database**: PostgreSQL  
 - **Data Transformation**: SQL  
@@ -124,7 +124,7 @@ Based on the analysis performed and the dashboards developed, the following key 
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Simulate a real-world analytics environment
 - Apply dimensional data modeling best practices
@@ -134,7 +134,7 @@ Based on the analysis performed and the dashboards developed, the following key 
 
 ---
 
-## 📌 Dataset Source
+## Dataset Source
 
 The dataset used in this project is publicly available on Kaggle:
 > Olist Brazilian E-commerce Dataset
